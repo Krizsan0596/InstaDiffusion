@@ -29,7 +29,29 @@ bot_username
 bot_password
 ```
 
+You should create a sepparate account for the bot as it might get banned.
+
 Run the .bat file and wait for it to give you a link.
 In `main.py` change the `url` variable to match that link. (You most likely won't need to change it, it is set to the default value.)
 
+In `users_setup.py` add your main instagram account's user_id to the admin list, you can add the rest with commands. Run `users_setup.py`.
+
 Run `main.py`. If you get `Listening for messages...` in your console, it's working. Test it with a message.
+
+## Commands
+
+**Currently commands included**:
+
+`?usage` - Prints usage instructions.
+
+`?priority add/remove` - Adds or removes users from the priority list.
+
+`?block` - Blocks user. (Can't actually block them so just adds them to an 'ignore list'.)
+
+`?unblock` - Unblocks user.
+
+`?admin` - Adds user to admin list.
+
+**Commands to be added**:
+
+`?help` - Prints available commands.
