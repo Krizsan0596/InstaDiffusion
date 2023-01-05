@@ -31,4 +31,5 @@ bot_password
 
 Run the .bat file and wait for it to give you a link.
 In `main.py` change the `url` variable to match that link. (You most likely won't need to change it, it is set to the default value.)
+
 Run `main.py`. If you get `Listening for messages...` in your console, it's working. Test it with a message.
